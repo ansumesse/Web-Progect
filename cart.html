@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anas Store</title>
+    <script
+      src="https://kit.fontawesome.com/a4cb14a3a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shope</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cart-banner"></section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/products/f1.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$15.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$15.00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/products/f2.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$15.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$15.00</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/products/f3.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$15.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$15.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-coupon-total" class="section-p1">
+      <div id="coupon">
+        <input type="text" placeholder="Enter Your Coupon" />
+        <button class="normal">Apply</button>
+      </div>
+      <div id="total">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$45</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$45</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proccesed to chekout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> gihan street, Mansoura, Dakahliya</p>
+        <p><strong>Phone:</strong>+2 102 785 0343</p>
+        <p><strong>Hours:</strong>10:00 am - 10:00 pm, Sat - Thu</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col-install">
+        <h4>Istall App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2023, Anas Store</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
